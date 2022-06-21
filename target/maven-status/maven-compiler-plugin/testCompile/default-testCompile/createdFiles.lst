@@ -1,0 +1,5 @@
+in\co\gorest\testbase\TestBase.class
+in\co\gorest\cucumber\UserCRUDSteps.class
+in\co\gorest\allusersinfo\AllUsersCRUDTest.class
+in\co\gorest\cucumber\BackgroundSteps.class
+in\co\gorest\CucumberRunner.class

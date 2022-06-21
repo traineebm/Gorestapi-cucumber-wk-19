@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"All users CRUD test","Verify if the user was added to the application for name = Dexter Maniac","ERROR","2022-06-20T23:49:36.952+01:00[Europe/London]","0.0","0.94"

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user I would like to verify all CRUD requests for this application","I create a new user on this application","FAILURE","2022-06-20T23:49:41.050+01:00[Europe/London]","0.0","0.82"
+"As a user I would like to verify all CRUD requests for this application","I read a newly created user information from this application","FAILURE","2022-06-20T23:49:41.923+01:00[Europe/London]","0.0","0.69"
+"As a user I would like to verify all CRUD requests for this application","I update a newly created user information from this application","FAILURE","2022-06-20T23:49:42.638+01:00[Europe/London]","0.0","0.69"
+"As a user I would like to verify all CRUD requests for this application","I delete a newly created user information from this application","FAILURE","2022-06-20T23:49:43.359+01:00[Europe/London]","0.0","0.71"

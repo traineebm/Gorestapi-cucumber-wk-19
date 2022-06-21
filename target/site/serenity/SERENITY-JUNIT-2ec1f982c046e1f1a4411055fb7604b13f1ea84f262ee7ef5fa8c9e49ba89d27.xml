@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="As a user I would like to verify all CRUD requests for this application" skipped="0" tests="4" time="2.91" timestamp="2022-06-20T23:49:41.050+01:00[Europe/London]"><testcase name="I create a new user on this application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.cucumber.UserCRUDSteps.iGetAValidStatusCodeFromTheApplication(UserCRUDSteps.java:42)&#13;
+✽.And I get a valid status code from the application(gorest.feature:11)&#13;
+</system-err></testcase><testcase name="I read a newly created user information from this application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.cucumber.UserCRUDSteps.iSendAGETRequestToTheApplicationToReadNewlyCreatedUser(UserCRUDSteps.java:47)&#13;
+✽.When I send a GET request to the application to read newly created user(gorest.feature:14)&#13;
+</system-err></testcase><testcase name="I update a newly created user information from this application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.cucumber.UserCRUDSteps.iSendAPATCHRequestToTheApplicationUsingAValidPayload(UserCRUDSteps.java:61)&#13;
+✽.When I send a PATCH request to the application using a valid payload(gorest.feature:19)&#13;
+</system-err></testcase><testcase name="I delete a newly created user information from this application"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.co.gorest.cucumber.UserCRUDSteps.iSendADELETERequestToTheApplication(UserCRUDSteps.java:74)&#13;
+✽.When I send a DELETE request to the application(gorest.feature:24)&#13;
+</system-err></testcase></testsuite>

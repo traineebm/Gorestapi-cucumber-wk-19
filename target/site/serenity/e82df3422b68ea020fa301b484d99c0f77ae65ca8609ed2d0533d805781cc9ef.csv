@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"All users CRUD test","This will create a new user","SUCCESS","2022-06-20T23:49:33.602+01:00[Europe/London]","0.0","3.34"
+"All users CRUD test","Verify if the user was added to the application for name = Dexter Maniac","ERROR","2022-06-20T23:49:36.952+01:00[Europe/London]","0.0","0.94"
+"All users CRUD test","Update the user information and verify the updated information for ID = 6607","SUCCESS","2022-06-20T23:49:37.954+01:00[Europe/London]","0.0","0.79"
+"All users CRUD test","Delete the user and verify if the user is deleted! for ID = 6607","SUCCESS","2022-06-20T23:49:38.740+01:00[Europe/London]","0.0","1.39"
